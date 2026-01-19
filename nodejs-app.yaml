@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: bitnami/node-example:latest 
+        image: mahesh142/node-app:latest 
         ports:
         - containerPort: 3000
         env:
